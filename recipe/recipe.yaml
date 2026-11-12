@@ -17,7 +17,7 @@ source:
     - patches/0001-Add-PY4DGEO_USE_EXTERNAL_EIGEN-to-use-an-installed-E.patch
 
 build:
-  number: 0
+  number: 1
   script:
     env:
       # Unix: scikit-build-core otherwise picks "Unix Makefiles", and the CI
